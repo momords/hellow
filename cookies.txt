@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+wjx0p.localtonet.com	TRUE	/	FALSE	1999999999	PHPSESSID	al61n0n03mm81pubf2ke8qjtjf
+

@@ -1,0 +1,39 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 04 Jan 2022 13:48:39 at https://wjx0p.localtonet.com/balcheck.php +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qiC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://wjx0p.localtonet.com/balcheck.php -O1 "C:\My Web Sites\checker" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+13:48:39	Warning: 	Cache: damaged cache, trying to repair
+13:48:39	Warning: 	Cache: 0 bytes successfully recovered in 0 entries
+13:48:39	Warning: 	Cache: error trying to open the cache
+13:49:06	Error: 	"Not Found" (404) at link https://wjx0p.localtonet.com/hck.css (from https://wjx0p.localtonet.com/index.php)
+13:49:06	Error: 	"Not Found" (404) at link https://wjx0p.localtonet.com/hck.js (from https://wjx0p.localtonet.com/index.php)
+13:49:06	Error: 	"Not Found" (404) at link https://wjx0p.localtonet.com/font.css (from https://wjx0p.localtonet.com/index.php)
+13:49:07	Error: 	"Not Found" (404) at link https://wjx0p.localtonet.com/img/favicon.ico (from https://wjx0p.localtonet.com/index.php)
+13:50:43	Error: 	"Not Found" (404) at link https://wjx0p.localtonet.com/register.php (from https://wjx0p.localtonet.com/index.php)
+13:50:43	Error: 	"Not Found" (404) at link https://wjx0p.localtonet.com/assets/vendor/jquery/dist/jquery.min.js (from https://wjx0p.localtonet.com/index.php)
+13:50:43	Error: 	"Not Found" (404) at link https://wjx0p.localtonet.com/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js (from https://wjx0p.localtonet.com/index.php)
+13:50:43	Error: 	"Not Found" (404) at link https://wjx0p.localtonet.com/assets/vendor/js-cookie/js.cookie.js (from https://wjx0p.localtonet.com/index.php)
+13:50:43	Error: 	"Not Found" (404) at link https://wjx0p.localtonet.com/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js (from https://wjx0p.localtonet.com/index.php)
+13:50:43	Error: 	"Not Found" (404) at link https://wjx0p.localtonet.com/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js (from https://wjx0p.localtonet.com/index.php)
+13:50:43	Error: 	"Not Found" (404) at link https://wjx0p.localtonet.com/assets/js/argon.js?v=1.1.0 (from https://wjx0p.localtonet.com/index.php)
+13:50:43	Error: 	"Not Found" (404) at link https://wjx0p.localtonet.com/assets/js/demo.min.js (from https://wjx0p.localtonet.com/index.php)
+13:50:43	Error: 	"Not Found" (404) at link https://wjx0p.localtonet.com/img/bg.jpeg (from https://wjx0p.localtonet.com/style.default.css)
+13:50:43	Error: 	"Not Found" (404) at link https://wjx0p.localtonet.com/assets/img/calendar/january.jpg (from https://wjx0p.localtonet.com/assets/css/argon.css?v=1.1.0)
+13:50:43	Error: 	"Not Found" (404) at link https://wjx0p.localtonet.com/assets/img/calendar/february.jpg (from https://wjx0p.localtonet.com/assets/css/argon.css?v=1.1.0)
+13:50:43	Error: 	"Not Found" (404) at link https://wjx0p.localtonet.com/assets/img/calendar/march.jpg (from https://wjx0p.localtonet.com/assets/css/argon.css?v=1.1.0)
+13:50:43	Error: 	"Not Found" (404) at link https://wjx0p.localtonet.com/assets/img/calendar/april.jpg (from https://wjx0p.localtonet.com/assets/css/argon.css?v=1.1.0)
+13:50:43	Error: 	"Not Found" (404) at link https://wjx0p.localtonet.com/assets/img/calendar/may.jpg (from https://wjx0p.localtonet.com/assets/css/argon.css?v=1.1.0)
+13:50:43	Error: 	"Not Found" (404) at link https://wjx0p.localtonet.com/assets/img/calendar/june.jpg (from https://wjx0p.localtonet.com/assets/css/argon.css?v=1.1.0)
+13:50:43	Error: 	"Not Found" (404) at link https://wjx0p.localtonet.com/assets/img/calendar/july.jpg (from https://wjx0p.localtonet.com/assets/css/argon.css?v=1.1.0)
+13:50:43	Error: 	"Not Found" (404) at link https://wjx0p.localtonet.com/assets/img/calendar/august.jpg (from https://wjx0p.localtonet.com/assets/css/argon.css?v=1.1.0)
+13:50:43	Error: 	"Not Found" (404) at link https://wjx0p.localtonet.com/assets/img/calendar/september.jpg (from https://wjx0p.localtonet.com/assets/css/argon.css?v=1.1.0)
+13:50:43	Error: 	"Not Found" (404) at link https://wjx0p.localtonet.com/assets/img/calendar/october.jpg (from https://wjx0p.localtonet.com/assets/css/argon.css?v=1.1.0)
+13:50:43	Error: 	"Not Found" (404) at link https://wjx0p.localtonet.com/assets/img/calendar/november.jpg (from https://wjx0p.localtonet.com/assets/css/argon.css?v=1.1.0)
+13:50:43	Error: 	"Not Found" (404) at link https://wjx0p.localtonet.com/assets/img/calendar/december.jpg (from https://wjx0p.localtonet.com/assets/css/argon.css?v=1.1.0)
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 4 seconds : 46 links scanned, 20 files written (1041509 bytes overall) [774131 bytes received at 6242 bytes/sec], 366466 bytes transferred using HTTP compression in 11 files, ratio 13%, 4.2 requests per connection
+(25 errors, 3 warnings, 0 messages)

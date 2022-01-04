@@ -1,0 +1,173 @@
+
+<!-- =========================================================
+* Argon Dashboard PRO v1.1.0
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/argon-dashboard-pro
+* Copyright 2019 Creative Tim (https://www.creative-tim.com)
+
+* Coded by Creative Tim
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+ -->
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from wjx0p.localtonet.com/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 04 Jan 2022 05:48:43 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<link href="../maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <link href="../cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.11/css/mdb.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+<link rel="stylesheet" href="hck.html">
+<link rel="stylesheet" href="hck-2.html">
+<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+<script src="../ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+ <link rel="stylesheet" href="font.html">
+    <!-- Google fonts - Muli-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:300,400,700">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="custom.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/favicon.html">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+  <body onload="ccgen();" style="background:black">
+<audio id="click" src="assets/sfx/click.mp3"></audio>
+  <audio id="error" src="assets/sfx/error.mp3"></audio>
+  <audio id="success" src="assets/sfx/success.mp3"></audio>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Login Authentication">
+  <meta name="author" content="Pusang Espiya">
+  <title>Globe Balance Checker - Login</title>
+ <!-- Favicon -->
+  
+  <link rel="stylesheet" href="assets/css/argon9f1e.css?v=1.1.0" type="text/css">
+
+</head>
+
+<body class="bg-default">
+  
+  <!-- Main content -->
+  <div class="main-content">
+    <!-- Header -->
+    <div class="header bg-gradient-primary py-5 py-lg-6 pt-lg-7">
+      <div class="container">
+        <div class="header-body text-center mb-7">
+          <div class="row justify-content-center">
+            <div class="col-xl-5 col-lg-6 col-md-8 px-5">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="separator separator-bottom separator-skew zindex-100">
+        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <polygon class="fill-default" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+    </div>
+    <!-- Page content -->
+    <div class="container mt--8 pb-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-5 col-md-7">
+          <div class="card card-profile bg-secondary mt-5">
+            <div class="row justify-content-center">
+              <div class="col-lg-3 order-lg-2">
+                <div class="card-profile-image">
+                  <img src="pusa.jpg" onclick="inputValue();" class="rounded-circle border-secondary">
+                </div>
+              </div>
+            </div>
+            <div class="card-body pt-7 px-5">
+              <div class="text-center mb-4">
+<br>
+                <h2>Login</h2>
+<h3></h3>
+                
+              </div>
+              <form method="post" role="form">
+                <div class="form-group">
+                  <div class="input-group input-group-merge input-group-alternative">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><i class="ni ni-lock-circle-open"></i></span>
+                    </div>
+                    <input class="form-control" placeholder="Your Username" name="username" id="username" type="username">
+</span></span>
+							</div>
+<br>
+
+<div class="input-group input-group-merge input-group-alternative">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><i class="ni ni-lock-circle-open"></i></span>
+                    </div>
+                    <span class="required error" id="login-password-info"></span><input class="form-control" placeholder="Your Password" name="login-password" id="login-password" type="password">
+</span></span>
+							</div>
+                  </div>
+                
+                <div class="text-center">
+                  <button class="btn btn-block btn-primary mt-2" type="submit" name="login-btn"
+							id="login-btn" value="Login">Unlock</button>
+<br>
+<a href="register.html">Signup</a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+function loginValidation() {
+	var valid = true;
+	$("#username").removeClass("error-field");
+	$("#password").removeClass("error-field");
+
+	var UserName = $("#username").val();
+	var Password = $('#login-password').val();
+
+	$("#username-info").html("").hide();
+
+	if (UserName.trim() == "") {
+		$("#username-info").html("required.").css("color", "#ee0000").show();
+		$("#username").addClass("error-field");
+		valid = false;
+	}
+	if (Password.trim() == "") {
+		$("#login-password-info").html("required.").css("color", "#ee0000").show();
+		$("#login-password").addClass("error-field");
+		valid = false;
+	}
+	if (valid == false) {
+		$('.error-field').first().focus();
+		valid = false;
+	}
+	return valid;
+}
+</script>
+  <!-- Argon Scripts -->
+  <!-- Core -->
+  <script src="assets/vendor/jquery/dist/jquery.min.html"></script>
+  <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.html"></script>
+  <script src="assets/vendor/js-cookie/js.cookie.html"></script>
+  <script src="assets/vendor/jquery.scrollbar/jquery.scrollbar.min.html"></script>
+  <script src="assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.html"></script>
+  <!-- Argon JS -->
+  <script src="assets/js/argon9f1e.html?v=1.1.0"></script>
+  <!-- Demo JS - remove this in your project -->
+  <script src="assets/js/demo.min.html"></script>
+</body>
+
+
+<!-- Mirrored from wjx0p.localtonet.com/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 04 Jan 2022 05:49:02 GMT -->
+</html>
